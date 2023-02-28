@@ -190,7 +190,7 @@ aside {
 
 footer {
     text-align: center;
-    display: block;
+    display: inline-block;
     position: static;
     bottom: 0;
     right: 0;
@@ -198,6 +198,18 @@ footer {
     background: #eee;
     border: 1px solid #ddd;
 }
+
+.indexfooter {
+    text-align: center;
+    display: inline-block;
+    position: static;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
 
 .myname {
     /* display: flex; */
