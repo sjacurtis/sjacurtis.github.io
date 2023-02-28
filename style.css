@@ -1,49 +1,63 @@
-html, body, form, fieldset, table, tr, td, img {
+html,
+body,
+form,
+fieldset,
+table,
+tr,
+td,
+img {
     margin: 0;
     padding: 0;
-    font: 100%/150% calibri,helvetica,sans-serif;
+    font: 100%/150% calibri, helvetica, sans-serif;
 }
 
-input, button, select, textarea, optgroup, option {
+input,
+button,
+select,
+textarea,
+optgroup,
+option {
     font-family: inherit;
     font-size: inherit;
     font-style: inherit;
     font-weight: inherit;
 }
 
-#container 
-{
+#container {
     width: 80%;
     margin: 0 auto;
 }
 
-.wrapper 
-{
+.wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 69%;
+    width: 50%;
     float: left;
 
 }
 
-.wrapper2 
-{
+.wrapper2 {
     display: block;
     width: 69%;
     float: left;
-
 }
 
-.wrapper > div 
-{
+.wrapper3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.wrapper>div {
     font-size: 4vh;
     color: black;
 
     margin: .1em;
     padding: .5em;
-    border-radius: 100px;
-    flex: 0 1 230px 
-
+    border-radius: 50px;
+    flex: 0 1 230px
 }
 
 
@@ -57,7 +71,7 @@ input, button, select, textarea, optgroup, option {
 }
 
 .content .content-overlay {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 99%;
     width: 100%;
@@ -71,11 +85,11 @@ input, button, select, textarea, optgroup, option {
     transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay {
     opacity: 1;
 }
 
-.content-image{
+.content-image {
     width: 100%;
 }
 
@@ -96,13 +110,13 @@ input, button, select, textarea, optgroup, option {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content:hover .content-details {
     top: 50%;
     left: 50%;
     opacity: 1;
 }
 
-.content-details h3{
+.content-details h3 {
     color: #fff;
     font-weight: 500;
     font-size: 0.4em;
@@ -111,47 +125,56 @@ input, button, select, textarea, optgroup, option {
     text-transform: uppercase;
 }
 
-.content-details p{
+.content-details p {
     color: #fff;
     font-size: 0.8em;
 }
 
-.fadeIn-bottom{
+.fadeIn-bottom {
     top: 80%;
 }
 
 
 
-img 
-{
-    width:100%
+img {
+    width: 100%
 }
 
-.bannerimg
-{
+.bannerimg {
     display: block;
-    height:100%;
+    height: 100%;
 }
 
-.smallerimg
-{
+.bodyimg {
     display: block;
-    height:30%;
-    width:30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.logo
-{
-    width:100%;
+.smallerimg {
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header
-{
-    color:white;
+.profileimg {
+    display: block;
+    height: 30%;
+    width: 30%;
 }
 
-aside 
-{ 
+.logo {
+    width: 100%;
+}
+
+header {
+    color: white;
+}
+
+aside {
     text-align: center;
     width: 15%;
     margin-right: 15%;
@@ -159,44 +182,55 @@ aside
     line-height: 5;
 }
 
-.group:after 
-{
+.group:after {
     content: "";
     display: table;
     clear: both;
 }
 
-footer
-{
-    text-align:center;
+footer {
+    text-align: center;
+    display: block;
+    position: static;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #eee;
+    border: 1px solid #ddd;
 }
 
-.myname
-{
-    text-align: center
-        font-size: 4vh;
+.myname {
+    text-align: center;
+    font-size: 3vh;
     color: #868686;
     background-color: #EEEEEE;
     line-height: 5;
 }
 
-a
-{
+a {
     text-decoration: none
 }
 
 
-ul.menu
-{
+ul.menu {
     margin: 0;
     list-style-type: none;
     padding: 0;
 }
 
 
-ul.menu li
-{
+ul.menu li {
     padding: 0px;
     border-bottom: 1px solid #f1f1f1;
-    width:100%;
+    width: 100%;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
 }
