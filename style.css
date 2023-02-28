@@ -175,11 +175,12 @@ header {
 }
 
 aside {
+    min-width: 150px;
     text-align: center;
     width: 15%;
     margin-right: 15%;
     float: left;
-    line-height: 5;
+    line-height: 4;
 }
 
 .group:after {
@@ -214,12 +215,13 @@ footer {
 .myname {
     /* display: flex; */
     /* align-items: center; */
+    display: inline-block;
     min-width: 150px;
     text-align: center;
     font-size: 3vh;
     color: #868686;
     background-color: #EEEEEE;
-    line-height: 3;
+    line-height: 6;
 }
 
 a {
